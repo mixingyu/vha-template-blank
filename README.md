@@ -1,5 +1,7 @@
 # vha-template-blank
-这是一个空的vueHybridApp模板
+这是一个空的vueHybridApp模板 [预览页面](https://mixingyu.github.io/vha-template-blank/)
+
+
 
 ps设计图参考 1336*750
 
