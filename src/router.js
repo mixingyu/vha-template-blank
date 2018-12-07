@@ -12,8 +12,10 @@ export default new Router({
       name: 'index',
       component: index,
       meta: {
-        navBarTitle: 'neoStudioGroup.com',
-        keepAlive: true
+        vhaNavbar: {
+          title: 'neoStudioGroup.com',
+          sideButton: 'none'
+        }
       }
     }
   ]

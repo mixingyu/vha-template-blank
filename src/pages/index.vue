@@ -1,20 +1,24 @@
 <style lang="stylus">
-._PG-index
-
+.PG-index
   // UI组件-名称
-  ._UI-name
-    margin rem(400) 0
-    text-align center
-    background-color white
-
+  .UI-name
+    padding rpx(40)
+    // margin rpx(400) 0
+    // text-align center
+    // background-color white
 </style>
 －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
 <template>
-  <div class="_PG-index">
+  <div class="PG-index">
 
     <!-- UI组件-名称 -->
-    <div class="_UI-name">
-      hello world
+    <div class="UI-name">
+      <h1>Hello, vue hybrid app!</h1>
+      <h2>Hello, vue hybrid app!</h2>
+      <h3>Hello, vue hybrid app!</h3>
+      <h4>Hello, vue hybrid app!</h4>
+      <h5>Hello, vue hybrid app!</h5>
+      <h6>Hello, vue hybrid app!</h6>
     </div>
 
   </div>
@@ -38,7 +42,7 @@ export default {
     //观察 - 数据或方法变动
   },
   mounted() {
-    //挂载实例后 - this.el存在
+    //挂载实例后 - this.$el存在
   },
   beforeDestroy() {
     //销毁前 - 实例仍然完全可用
